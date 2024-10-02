@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Website</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="centerting">
+        <fieldset>
+            <legend>Bubble Code Generator</legend>
+            <div class="controls">
+                <!-- <input type="text" maxlength="7" id="color-input-bubble" value="#BC987E" placeholder="#RRGGBB for bubbles">
+                <input type="text" maxlength="7" id="color-input-background" value="#FFFFFF"
+                    placeholder="#RRGGBB for background"> -->
+                <div>
+                    <label>Bubble Color</label>
+                    <input type="color" id="color-input-bubble" value="#BC987E" placeholder="#RRGGBB for bubbles">
+                </div>
+                <div>
+                    <label>Background Color</label>
+                    <input type="color" id="color-input-background" value="#FFFFFF"
+                        placeholder="#RRGGBB for background">
+                </div>
+            </div>
+            <button class="button-1" onclick="copyCode()">Copy Code</button>
+        </fieldset>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
