@@ -83,7 +83,8 @@ function copyCode() {
                         newBubble.remove();
                     }, 2000);
                 }, Math.floor(Math.random() * 1000) + 2000);
-            }, 1000);`
+            }, 1000);
+            </script>`
 
 
     const codeToCopy = cssCode + jsCode;
